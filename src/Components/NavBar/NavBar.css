@@ -30,9 +30,14 @@
 }
 
 h1{
-    margin: 0 0 0 0rem;
+    margin: 0;
     padding: 1rem;
     background-color: #08085a;
     color: white;
 }
 
+.carrito{
+    background-color: white;
+    border-radius: .5rem;
+    margin: auto;
+}

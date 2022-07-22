@@ -5,6 +5,7 @@ function NavBarSecciones() {
     return (
       <nav className='NavBarSecciones'>  
         <ul>
+            <NavLink to='/productos/Camisetas'><li>Camisetas</li></NavLink>
             <NavLink to='/productos/Remeras'><li>Remeras</li></NavLink>
             <NavLink to='/productos/Pantalones'><li>Pantalones</li></NavLink>
             <NavLink to='/productos/Shorts'><li>Shorts</li></NavLink>

@@ -9,18 +9,20 @@ import { CartContextProvider } from './Context/CartContext'
 import CartContainer from './Components/Containers/CartContainer/CartContainer'
 import Header from './Components/Header/Header'
 import Inicio from './Components/Containers/Inicio/Inicio'
+import Contacto from './Components/Contacto/Contacto'
 
 
 function App() {
   return (
     <CartContextProvider>
       <BrowserRouter>
-          <Header/>
+            <Header/>
           <Routes>
               <Route index path='/inicio' element={<Inicio/>}/>
               <Route path='/productos' element={<ItemListContainer/>}/>
               <Route path='/productos/:categoria' element={<ItemListContainer/>}/>
               <Route path='/info/:id' element={<ItemDetailContainer/>}/>
+              <Route path='/contacto' element={<Contacto/>}/>
               <Route path='/cart' element={<CartContainer/>}/>
           </Routes>
       </BrowserRouter>

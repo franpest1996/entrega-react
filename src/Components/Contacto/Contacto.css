@@ -1,0 +1,41 @@
+.contacto p{
+    margin: 0;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contacto{
+    margin: 0;
+    background-color: #f6f7b7;
+    padding: 1rem;
+}
+
+form{
+    padding: .8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+	margin: auto;
+    font-weight: bold;
+    box-shadow: 0 0 1rem gray;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+form input{
+    margin: .5rem;
+    
+    height: 1.5rem;
+    max-width: 25rem;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    
+}
