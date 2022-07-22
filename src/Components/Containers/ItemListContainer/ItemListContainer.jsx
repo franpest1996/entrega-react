@@ -5,6 +5,7 @@ import ItemList from "../../ItemList.jsx/ItemList"
 import NavBarSecciones from "../../NavBarSecciones/NavBarSecciones"
 import './ItemListContainer.css'
 import { collection, doc, getDocs, getFirestore } from "firebase/firestore"
+import Footer from "../../Footer/Footer"
 
 const ItemListContainer = ()=>{
     const [bool, setBool] = useState(true)
@@ -43,6 +44,7 @@ const ItemListContainer = ()=>{
      }, [categoria])
 
     return(
+        
         <div className="container">
         <NavBarSecciones/>    
             <div className="itemList">
@@ -54,6 +56,8 @@ const ItemListContainer = ()=>{
                 }
             </div>
         </div>
+       
+        
     )
 }
 

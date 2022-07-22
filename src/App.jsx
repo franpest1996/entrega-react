@@ -10,6 +10,7 @@ import CartContainer from './Components/Containers/CartContainer/CartContainer'
 import Header from './Components/Header/Header'
 import Inicio from './Components/Containers/Inicio/Inicio'
 import Contacto from './Components/Contacto/Contacto'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path='/contacto' element={<Contacto/>}/>
               <Route path='/cart' element={<CartContainer/>}/>
           </Routes>
+          <Footer/>
       </BrowserRouter>
     </CartContextProvider>
   )

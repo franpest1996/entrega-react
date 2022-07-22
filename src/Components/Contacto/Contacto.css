@@ -9,7 +9,7 @@
 .contacto{
     margin: 0;
     background-color: #f6f7b7;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 form{
@@ -35,7 +35,16 @@ form input{
 form label{
     display: flex;
     flex-direction: column;
-    text-align: left;
-    
-    
+    text-align: left;    
+}
+
+.submit{
+    background-color: #020229;
+    color: white;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: #08085a;
 }

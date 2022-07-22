@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../../Context/CartContext"
 import Cart from "../../Cart/cart"
+import Footer from "../../Footer/Footer"
 import './CartContainer.css'
 
 
@@ -50,13 +51,19 @@ function CartContainer() {
                         }
                     </tbody>
                     <tbody>
-                        <tr className="footerTable">
-                            <th>Total: $ {totalPrice()}</th>
-                            <th><button onClick={vaciar}>Vaciar Carrito</button></th>
-                            <th><button >Comprar</button></th>
-                        </tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><button className="vaciar" onClick={vaciar}>Vaciar Carrito</button></th>
                     </tbody>
                 </table>
+                    <tr className="footerTable">
+                        
+                        <th>Total: $ {totalPrice()}</th>
+                        <th><button >Comprar</button></th>
+                    </tr>
+            
         </div>
     )
         

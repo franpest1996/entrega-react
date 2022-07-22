@@ -29,6 +29,25 @@ tr{
     border-bottom: .1rem solid black;
 }
 
+.vaciar{
+    float: right;
+}
+
 .footerTable{
-    margin-right: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footerTable button{
+    background-color: #020229;
+    color: white;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footerTable button:hover{
+    background-color: #08085a;
 }
